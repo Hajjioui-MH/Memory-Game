@@ -1,6 +1,9 @@
 body{
 	width: 90%;
 	margin: 3em 5%;
+	background-color: #434343;
+    background-image: linear-gradient(62deg, #434343 0%,  #000000 100%);
+    color: #7c795d
 }
 .grid {
   display: flex;
@@ -10,6 +13,25 @@ body{
   height: 300px;
   background-color: #555;
 }
+h2 img{
+	height: 35px;
+	width: 35px;
+	margin: 0 .2em;
+}
+h2 span{margin: 0 .7em;text-align: center;font-size: 1.4em}
 img{
 	cursor: pointer;
+}
+h1{
+	text-align: center;
+	font-family: 'Metal Mania', cursive;
+}
+h2{
+	font-family: 'Metal Mania', cursive;
+	margin-left: 7em;
+	display: flex;
+	align-items: center;
+}
+.hidden{
+	pointer-events: none;
 }

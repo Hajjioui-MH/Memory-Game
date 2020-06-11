@@ -1,0 +1,15 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "A retro grid-based game in vanilla JavaScript, HTML and CSS",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify app.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-work:Hajjioui-MH/Memory-Game.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
